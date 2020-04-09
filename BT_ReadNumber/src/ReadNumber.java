@@ -113,10 +113,12 @@ public class ReadNumber {
     public static String readOneNumber(String a){
         String result = "";
         switch (a){
+            case "0":
+                result = "zero";
+                break;
             case "1":
                  result = "one";
                  break;
-
             case "2":
                  result = "two";
                  break;
