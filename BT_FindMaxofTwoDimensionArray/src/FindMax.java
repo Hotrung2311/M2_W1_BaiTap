@@ -6,7 +6,7 @@ public class FindMax {
                      {6,7,8,9,10},
                      {100,3,4,5,1},
                      {54,700,2,1,5},
-                     {5,4,3,2,1}};
+                     {5,4,3,-45,1}};
         int min = a[0][0];
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < cols; j++){
